@@ -1,0 +1,20 @@
+{
+  "name": "automate_transfer",
+  "version": "1.0.0",
+  "description": "Automated transfer system using Android ADB commands",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/xml2js": "^0.4.14",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
